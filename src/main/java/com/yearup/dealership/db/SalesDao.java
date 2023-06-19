@@ -26,6 +26,7 @@ public class SalesDao {
 
         } catch (Exception ex) {
             ex.printStackTrace();
-        // TODO: Implement the logic to add a sales contract
+            // TODO: Implement the logic to add a sales contract
+        }
     }
 }
