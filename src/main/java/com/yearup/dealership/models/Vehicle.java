@@ -14,6 +14,15 @@ public class Vehicle {
     public Vehicle() {
     }
 
+    public Vehicle(String make, String model) {
+        this.make = make;
+        this.model = model;
+    }
+
+    public Vehicle(double minPrice, double maxPrice) {
+
+    }
+
     public Vehicle(String vin, String make, String model, int year, boolean sold, String color, String vehicleType, int odometer, double price) {
         this.vin = vin;
         this.make = make;

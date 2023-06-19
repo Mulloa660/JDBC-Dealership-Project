@@ -13,6 +13,7 @@ public class InventoryDao {
     }
 
     public void addVehicleToInventory(String vin, int dealershipId) {
+
         // TODO: Implement the logic to add a vehicle to the inventory
     }
 
